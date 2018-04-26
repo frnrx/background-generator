@@ -1,0 +1,21 @@
+body {
+	text-align: center;
+	background: linear-gradient(to right, rgb(159, 235, 255), rgb(255, 176, 206));
+	font-family: fantasy;
+	font-weight: 2px;
+	letter-spacing: .5em;
+	text-transform: uppercase;
+	margin: 200px;
+}
+
+h3 {
+	letter-spacing: 0.01em;
+	text-transform: none;
+	font-size: .8em;
+	font-weight: 300px;
+	margin: 20px;
+}
+
+button {
+	margin-top: 70px;
+}
