@@ -2,16 +2,19 @@
 <html>
 <head>
 	<title>Gradient Background</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body id="gradient">
 	<h1>Cool Background Generator</h1>
-	<input class="color1" type="color" name="color1" value= "#9FEBFF">
-	<input class="color2" type="color" name="color2" value= "#FFB0CE">
-
-	<h2>This is the background</h2>
-	<h3>linear-gradient(to right, rgb(159, 235, 255), rgb(255, 176, 206));</h3>
-	<button onclick="randomNumber()" >RANDOM!!!!!!</button>
+	<div class = "colorbutton">
+		<input class="color1" type="color" name="color1" value= "#9FEBFF">
+		<input class="color2" type="color" name="color2" value= "#FFB0CE">
+	</div>
+	<h2>use this CSS</h2>
+	<h3>background: linear-gradient(to right, rgb(159, 235, 255), rgb(255, 176, 206));</h3>
+	<button id="randombutton" type="button" class="btn btn-dark" onclick="randomNumber()" >RANDOM!!!!!!</button>
 <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
